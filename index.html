@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aubry Matthieu - Développeur front-end</title>
+    <link rel="icon" sizes="32x32" href="favicon.png">
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <p class="ouh">ouh</p>
+    <!-- header -->
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a class="active" href="#about-me"
+              ><div class="icon about-me-icon"><i class="fas fa-user"></i></div>
+              A propos</a
+            >
+          </li>
+          <li>
+            <a href="#projects"
+              ><div class="icon projects-icon"><i class="fas fa-file"></i></i></div>
+              Projets</a
+            >
+          </li>
+          <li>
+            <a href="#skills"
+              ><div class="icon skills-icon"><i class="fas fa-laptop-code"></i></div>
+              Compétences</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="burger-ctnr">
+        <div class="burger-button">
+          <div class="burger-line"></div>
+      </div>
+      </div>
+    </header>
+
+    <div class="burger-menu-wrap">
+      <nav>
+        <ul>
+          <li>
+            <a href="#about-me"
+              ><div class="icon about-me-icon"><i class="fas fa-user"></i></div>
+              A propos</a
+            >
+          </li>
+          <li>
+            <a href="#projects"
+              ><div class="icon projects-icon"><i class="fas fa-file"></i></i></div>
+              Projets</a
+            >
+          </li>
+          <li>
+            <a href="#skills"
+              ><div class="icon skills-icon"><i class="fas fa-laptop-code"></i></div>
+              Compétences</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="alert-msg">
+      <p>Are you sure you want to do this ?</p>
+      <div class="msg-btn-ctnr">
+        <input class="btn no" type="button" value="No..." />
+        <input class="btn yes" type="button" value="YES !" />
+      </div>
+    </div>
+
+    <main>
+      <section id="about-me">
+        <div class="about-me-ctnr">
+          <div class="left">
+            <div><h1 class="name">Matthieu Aubry</h1></div>
+            <div><p class="status">Développeur frond-end</p></div>
+            <div><p class="dev"></p></div>
+            <div class="socials">
+              <a href="tel:0671684288"><i class="fas fa-phone-alt"></i>Téléphone</a>
+              <a href="mailto:matthieu.aubry94370@gmail.com"><i class="fas fa-envelope"></i>Mail</a>
+              <a href="https://www.linkedin.com/in/matthieu-aubry-890a93183/" target="_blank"><i class="fab fa-linkedin-in"></i>LinkedIn</a>
+              <a href="https://github.com/Maubry94" target="_blank"><i class="fab fa-github"></i>Github</a>
+            </div>
+          </div>
+          <div class="right">
+            <img class="lazy-load" src="./assets/images/me.jpg" alt="Matthieu Aubry">
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <h2 class="section-title">Mes projets</h2>
+        <div class="projects-ctnr">
+          <article class="reveal project">
+            <div class="project-img-ctnr">
+              <img class="lazy-load" src="./assets/images/twnd.png" alt="The Weeknd">
+            </div>
+            <div class="project-content">
+              <div class="languages">
+                <img class="lazy-load language" src="./assets/images/html.png" alt="html">
+                <img class="lazy-load language" src="./assets/images/css.png" alt="css">
+                <img class="lazy-load language" src="./assets/images/js.png" alt="JavaScript">
+              </div>
+              <h3 class="project-name">The Weeknd</h3>
+              <p>Réalisation d'un site web (non officiel) promotionnel pour la sortie de l'album
+                <br><strong>The Weeknd's After Hours</strong>.
+                <br>Ce projet a été réalisé entièrement en 
+                <strong>HTML/CSS/Javascript</strong> avec <strong>Google Firebase</strong> pour la partie back-end.
+              </p>
+              <div class="btn-ctnr">
+                <a
+                  class="btn"
+                  href="https://github.com/Maubry94/lab201-the-weeknd-unofficial-website"
+                  target="_blank"
+                  ><i class="fab fa-github"></i><strong> Github</strong></a
+                >
+                <a
+                  class="btn"
+                  href="https://projects.matthieu-aubry.com/lab201/"
+                  target="_blank"
+                  ><i class="far fa-play-circle"></i><strong> Démo</strong></a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="reveal project">
+            <div class="project-img-ctnr">
+              <img class="lazy-load" src="./assets/images/no-mercy-3d.png" alt="No Mercy 3D">
+            </div>
+            <div class="project-content">
+              <div class="languages">
+                <img class="lazy-load language" src="./assets/images/threejs.png" alt="" />
+                <img class="lazy-load language" src="./assets/images/js.png" alt="" />
+                <img class="lazy-load language" src="./assets/images/html.png" alt="" />
+                <img class="lazy-load language" src="./assets/images/css.png" alt="" />
+              </div>
+              <h3 class="project-name">No Mercy 3D</h3>
+              <p>
+                Réalisation d'un Shoot 'em up en <strong>WebGL</strong> à l'aide de la
+                bibliothèque <strong>Three.js</strong>. Reproduction d'un TIE-Fighter
+                fait avec <strong>Cinema 4D</strong>.
+              </p>
+              <div class="btn-ctnr">
+                <a
+                  class="btn"
+                  href="https://github.com/Maubry94/no_mercy_3d"
+                  target="_blank"
+                  ><i class="fab fa-github"></i><strong> Github</strong></a
+                >
+                <a
+                  class="btn"
+                  href="https://projects.matthieu-aubry.com/no_mercy_3d/"
+                  target="_blank"
+                  ><i class="far fa-play-circle"></i><strong> Démo</strong></a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="reveal project">
+            <div class="project-img-ctnr">
+              <img class="lazy-load" src="./assets/images/leap-motion.png" alt="Hit That Cube !">
+            </div>
+            <div class="project-content">
+              <div class="languages">
+                <img class="lazy-load language" src="./assets/images/leap.png" alt="" />
+                <img class="lazy-load language" src="./assets/images/js.png" alt="" />
+                <img class="lazy-load language" src="./assets/images/html.png" alt="" />
+                <img class="lazy-load language" src="./assets/images/css.png" alt="" />
+              </div>
+              <h3 class="project-name">Hit That cube !</h3>
+              <p>
+                Réalisation d'un chamboultout en associant un leap motion
+                et du <strong>WebGL</strong> à l'aide de la bibliothèque
+                <strong>Three.js</strong> ainsi que de la physique grâce
+                <strong>Cannon.js</strong>.
+              </p>
+              <div class="btn-ctnr">
+                <a
+                  class="btn"
+                  href="https://github.com/Maubry94/leap_motion"
+                  target="_blank"
+                  ><i class="fab fa-github"></i><strong> Github</strong></a
+                >
+                <a
+                  class="btn"
+                  href="https://projects.matthieu-aubry.com/hit_that_cube/"
+                  target="_blank"
+                  ><i class="far fa-play-circle"></i><strong> Démo</strong></a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="reveal project">
+            <div class="project-img-ctnr">
+              <img class="lazy-load" src="./assets/images/fix-it.png" alt="Fix It !">
+            </div>
+            <div class="project-content">
+              <div class="languages">
+                <img class="language" src="./assets/images/pico-8.png" alt="" />
+              </div>
+              <h3 class="project-name">Fix It !</h3>
+              <p>
+                Réalisation d'un jeu de combat de robots, tour par tour en <strong>Lua</strong>
+                avec le moteur de jeu <strong>Pico-8</strong>. Ce jeu a été créer à l'occasion
+                la Global Game Jam qui portait sur le thème "réparation".
+              </p>
+              <div class="btn-ctnr">
+                <a
+                  class="btn"
+                  href="https://github.com/Maubry94/fix_it"
+                  target="_blank"
+                  ><i class="fab fa-github"></i><strong> Github</strong></a
+                >
+                <a
+                  class="btn"
+                  href="https://projects.matthieu-aubry.com/fix_it/"
+                  target="_blank"
+                  ><i class="far fa-play-circle"></i><strong> Démo</strong></a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="reveal project">
+            <div class="project-img-ctnr">
+              <img class="lazy-load" src="./assets/images/global-magazine.png" alt="Global Magazine">
+            </div>
+            <div class="project-content">
+              <div class="languages">
+                <img class="lazy-load language" src="./assets/images/html.png" alt="" />
+                <img class="lazy-load language" src="./assets/images/css.png" alt="" />
+              </div>
+              <h3 class="project-name">Global Magazine</h3>
+              <p>
+                Reproduction d'un modèle de magazine de type blog. ce projet à
+                été réalisé entièrement en <strong>HTML/CSS</strong>. Premier contact
+                avec les langages fronts.
+              </p>
+              <div class="btn-ctnr">
+                <a
+                  class="btn"
+                  href="https://github.com/Maubry94/maquette_GlobalMagazine"
+                  target="_blank"
+                  ><i class="fab fa-github"></i><strong> Github</strong></a
+                >
+                <a
+                  class="btn"
+                  href="https://projects.matthieu-aubry.com/global_magazine/"
+                  target="_blank"
+                  ><i class="far fa-play-circle"></i><strong> Démo</strong></a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="skills">
+        <h2 class="section-title">Mes Compétences</h2>
+        <div class="skills-ctnr">
+          <div class="reveal dev-skill">
+            <h3>Developement</h3>
+            <div class="skill-ctnr">
+              <div class="skill">
+                <div class="icon-ctnr">
+                  <i class="fab fa-html5 icon"></i>
+                </div>
+                <h4>HTML</h4>
+                <ul>
+                  <li>Sémentique</li>
+                  <li>SEO</li>
+                </ul>
+              </div>
+              <div class="skill">
+                <div class="icon-ctnr">
+                  <i class="fab fa-css3-alt icon"></i>
+                </div>
+                <h4>CSS</h4>
+                <ul>
+                  <li>Animation</li>
+                  <li>Responsive</li>
+                </ul>
+              </div>
+              <div class="skill">
+                <div class="icon-ctnr">
+                  <i class="fab fa-js icon"></i>
+                </div>
+                <h4>JavaScript</h4>
+                <ul>
+                  <li>Animation</li>
+                  <li>Manipulation du DOM</li>
+                </ul>
+              </div>
+              <div class="skill">
+                <div class="icon-ctnr">
+                  <i class="fab fa-php icon"></i>
+                </div>
+                <h4>PHP</h4>
+                <ul>
+                  <li>Formulaires</li>
+                  <li>Sessions</li>
+                  <li>Base de données</li>
+                </ul>
+              </div>
+              <div class="skill">
+                <div class="icon-ctnr">
+                  <i class="fas fa-puzzle-piece icon"></i>
+                </div>
+                <h4>Librairies</h4>
+                <ul>
+                  <li>Bootstrap</li>
+                  <li>jQuery</li>
+                  <li>Three.js</li>
+                </ul>
+              </div>
+              <div class="skill">
+                <div class="icon-ctnr">
+                  <i class="fas fa-database icon"></i>
+                </div>
+                <h4>Base de données</h4>
+                <ul>
+                  <li>phpMyAdmin</li>
+                  <li>Oracle</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="reveal other-skill">
+            <h3>Softwares</h3>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>&copy; Matthieu Aubry 2021</footer>
+
+    <!-- other scripts -->
+    <script
+      src="https://kit.fontawesome.com/52ae0aba96.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+    <!-- my script -->
+    <script src="index.js"></script>
+  </body>
+</html>
